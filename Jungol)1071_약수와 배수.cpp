@@ -1,4 +1,4 @@
-// Jungol 1071 약수와 배수 (unsolved)
+// Jungol 1071 약수와 배수
 // 2026-06-04
 // by cmKim
 
