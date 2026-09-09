@@ -1,5 +1,5 @@
 // Jungol 3106 진법 변환
-// 2026-09-07
+// 2026-09-10
 // Solved by cmKim
 
 #include <iostream>
