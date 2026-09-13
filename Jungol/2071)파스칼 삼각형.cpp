@@ -33,7 +33,7 @@ void print(int size, int type) {
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < i; j++)
 				cout << ' ';
-			for (int j = 0; j <= i; j++)
+			for (int j = 0; j < size - i; j++)
 				cout << arr[size - 1 - i][j] << ' ';
 			cout << '\n';
 		}
