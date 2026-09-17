@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <string>
-#include <algorithm>
 #include <map>
 using namespace std;
 
@@ -30,10 +29,10 @@ int main() {
 				words[word] += 1;
 		}
 
-		sort(words.begin(), words.end());
-
 		for (auto p : words) {
 			cout << p.first << " : " << p.second << '\n';
 		}
+
+		words.clear();
 	}
 }
