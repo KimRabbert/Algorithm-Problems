@@ -23,4 +23,9 @@ int main() {
 			space[c - 1].pop();
 		}
 	}
+
+	for (int i = 0; i < n; i++) {
+		cout << space[2].top() << '\n';
+		space[2].pop();
+	}
 }
