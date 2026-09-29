@@ -45,7 +45,7 @@ int main() {
 			break;
 		case 'z':
 			cin >> a;
-			if (a == q.front().z)
+			if (!q.empty() && a == q.front().z)
 				cout << "yes\n";
 			else
 				cout << "no\n";
